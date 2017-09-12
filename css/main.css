@@ -1,0 +1,323 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+  z-index: 100;
+}
+
+
+header, footer {
+	background-color: #222222;
+}
+
+header{
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+footer {
+  height: 80px;
+  position: fixed;
+  z-index: -1;
+  bottom: 0px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+h1{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+  font-weight: 300;
+  text-transform: uppercase;
+  color:#333344;
+
+}
+
+h3{
+	font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  color:#333344;
+
+}
+
+p{
+	font-size: 16px;
+
+}
+
+section {
+	color: rgba(69, 69, 69, 0.9);
+}	
+
+section p{
+  color:#333344;
+}
+
+header, footer {
+      background-color: #333344;
+      color: #f0ecec;
+}
+
+
+.top_line {
+  height: 80px;
+  z-index: 1001;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.top_line i{
+  margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+/*==========Карусель ==========*/
+
+.item {
+  width: 100%;
+}
+
+.block-one-example {
+  margin:30px 0;
+  position: relative;
+}
+
+.inner-testimonial {
+  text-align: center;
+  background-color: transparent;
+}
+
+.inner-testimonial > img{
+  max-width: 128px;
+  margin:0 auto 15px;
+  opacity: 0;
+  -webkit-transition:all 1.3s linear;
+  transition:all 1.3s linear;
+}
+
+.owl-item.active .inner-testimonial > img{
+  -webkit-transition:all 1.3s linear;
+  transition:all 1.3s linear;
+}
+
+.owl-item.active .inner-testimonial > img.full-opacity {
+  opacity:1;
+  -webkit-transition:all 0.3s linear;
+  transition:all 0.3s linear;
+}
+
+h3.name {
+  padding:0px 0;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+/*p*/.text-testimonial {
+  padding: 0px 0;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.block-items {
+  cursor: default;
+}
+
+/*Изменяем внешний вид элементов управления (точки) */
+.owl-theme .owl-dots .owl-dot span {
+  width: 14px;
+  height: 14px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+  width: 18px;
+  height: 18px;
+}
+
+/*Стрелки*/
+.owl-my-nav {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.owl-my-nav .owl-prev,
+.owl-my-nav .owl-next{
+  position: absolute;
+  width: 60px;
+  top:34%;
+  font-size: 100px;
+  z-index: 20;
+  cursor:pointer;
+  opacity: 0.5;
+  -webkit-transition:opacity .3s ease;
+  transition:opacity .3s ease;
+}
+
+.owl-my-nav .owl-prev:hover,
+.owl-my-nav .owl-next:hover{
+  opacity: 0.8;
+}
+
+.owl-my-nav .owl-prev {
+  left: 50px;
+}
+
+.owl-my-nav .owl-next {
+  right: 50px;
+  text-align: right;
+}
+/*==========Карусель END ==========*/
+
+
+
+
+/*==========КНОПКА ВВЕРХ ==========*/
+
+.to_top {
+    background-color: transparent;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: calc((100% - 1200px)/2);
+    height: 100%;
+
+  cursor: pointer;
+
+}
+
+.to_top_gray {
+  background-color: transparent;
+  width: 65px;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top:0px;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.to_top:hover .to_top_gray{
+    background-color: rgba(198, 198, 198, 0.2);
+}
+
+
+
+
+.to_top p{
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  font-size: 30px;
+  opacity: 0.2
+}
+
+.to_top:hover p{
+
+  opacity: 0.5
+}
+
+/*==========КНОПКА ВВЕРХ конец==========*/
+/*========== Прелоадер ==========*/
+    #page-preloader {
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background: #fff;
+      z-index: 100500;
+      overflow: hidden;
+    }
+
+    #page-preloader .spinner {
+      width: 100px;
+      height: 296px;
+      position: absolute;
+      left: 45%;
+      top: 30%;
+      background: url(img/loader4.gif) no-repeat 50% 50%;
+      margin: -16px 0 0 -16px;
+      background-size: cover;
+    }
+/*========== Прелоадер ==========*/
+
+
+                      /*Мобильная версия*/
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
