@@ -88,7 +88,6 @@ footer {
 }
 
 footer p{
-
       color: #f0ecec;
 }
 
@@ -196,6 +195,58 @@ color: #fff;
 }
 
 
+.slogan {
+  position: relative;
+  top: 125px;
+}
+
+.slogan_logo{
+    text-align: center;
+}
+
+.slogan_logo img{
+  width: 120px;
+
+}
+
+.slogan_logo p{
+
+}
+
+.slogan_h1 h1{
+ text-transform: uppercase;
+ font-size: 35px; 
+ text-align: center;
+ letter-spacing: 4px;
+     margin-top: 55px;
+}
+
+.slogan_p p{
+ font-size: 26px; 
+ text-align: center;
+ margin-top: 0px;
+}
+
+.slogan_a {
+ text-align: center; 
+}
+.slogan_a a{
+ font-size: 21px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 15px;
+    background-color: transparent;
+    -webkit-transition: all .75s;
+    -o-transition: all .75s;
+    transition: all .75s;
+
+}
+
+.slogan_a a:hover{
+ background-color: #fff;
+ color:#333344;
+}
 
 .second_box {
 
@@ -215,6 +266,7 @@ color: #fff;
 .second_box .second_box_order h3{
 font-size: 25px; 
  color: #fff;
+     line-height: 30px;
 }
 
 .second_box .second_box_order p{
@@ -228,7 +280,8 @@ font-size: 25px;
   margin-bottom: 25px; 
   margin-right: auto;
   margin-left: auto;
-
+    color: #333344;
+      height: 35px;
 }
 
 .second_box_form input{
@@ -237,6 +290,7 @@ font-size: 25px;
   margin-bottom: 25px; 
   margin-right: auto;
   margin-left: auto;
+  height: 35px;
 }
 
 
@@ -291,6 +345,50 @@ font-size: 25px;
 width: 100%
 
 }
+
+.reviews {
+  text-align: center;
+  padding: 35px 0px 35px 0px;
+}
+
+
+
+.reviews h2{
+  font-size: 36px;
+  text-align: center;
+
+} 
+
+
+.reviews h3{
+  text-align: left;
+  font-size: 25px;
+}
+
+.reviews p{
+  max-width: 850px;
+  margin: auto;
+  font-size: 21px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+
+
+
+.social {
+ margin-bottom: 10px;
+}
+
+.social a{
+  color: #f0ecec;
+}
+
+.social a:hover{
+  color: #fff;
+}
+
+
 
 /*==========Карусель ==========*/
 

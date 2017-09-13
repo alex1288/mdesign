@@ -89,7 +89,7 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$(".owl-carousel_2").owlCarousel({
+	$(".owl-carousel").owlCarousel({
 		loop:true,
 		items: 1,
 		//margin:130,
