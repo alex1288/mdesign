@@ -30,25 +30,14 @@ body {
 }
 
 
-header, footer {
-	background-color: #222222;
-}
+
 
 header{
-  height: 80px;
-  position: fixed;
-  width: 100%;
   z-index: 1000;
 }
 
 
 footer {
-  height: 80px;
-  position: fixed;
-  z-index: -1;
-  bottom: 0px;
-  width: 100%;
-  margin: auto;
   text-align: center;
 }
 
@@ -64,6 +53,7 @@ h2 {
   font-weight: 300;
   text-transform: uppercase;
   color:#333344;
+  text-align: center;
 
 }
 
@@ -84,34 +74,164 @@ section {
 	color: rgba(69, 69, 69, 0.9);
 }	
 
-section p{
+p{
   color:#333344;
 }
 
-header, footer {
+header{
+        color: #f0ecec;
+}
+
+footer {
       background-color: #333344;
       color: #f0ecec;
 }
 
 
 .top_line {
+  position: fixed;
+  width: 100%;
+  margin: auto;
   height: 80px;
   z-index: 1001;
     -webkit-transition: all 0.5s ease-in-out 0s;
   -moz-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
+background-color: rgba(51, 51, 68, 0.9); 
 }
 .top_line i{
   margin-bottom: 0px;
 }
 
 
+.anchors{
+
+}
+
+.anchors ul{
+ padding-left: 0px;
+}
+
+.anchors ul li{
+    display: inline-block;
+    margin: 12px 25px 12px 0px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.anchors ul li a{
+color: #f0ecec;
+}
+
+.anchors ul li a:hover{
+color: #fff;
+}
+
+
+.contact_top{
+ text-align: right;
+}
+
+
+.contact_top p{
+  font-size: 24px;
+  text-align: right;
+  display: inline-block;
+}
+
+.contact_top a{
+  background-color: #cc0000;
+  padding: 12px 24px 10px;
+  text-transform: uppercase;
+  color: #cacaca;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 25px;
+}
+
+
+.contact_top a:hover{
+  background-color: #9a0f0f;
+}
+
+.contact_top .order_b a{
+  background-color: #0d8728;
+  padding: 12px 24px 10px;
+  text-transform: uppercase;
+  color: #cacaca;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+
+.contact_top .order_b a:hover{
+  text-decoration: none;  
+  background-color: #0d8720;
+
+}
 
 
 
 
+.main_box {
+    background-image: url(img/bg_main.jpg);
+    background-position: ;
+    background-size: cover;
+    background-position-x: 50%;
+}
 
+
+
+.second_box {
+
+}
+
+.second_box_order {
+  padding: 25px;
+}
+
+.second_box .second_box_order{
+ background-color: rgba(51, 51, 68, 0.9);
+ color: #cacaca;
+}
+
+.second_box .second_box_order h3{
+font-size: 25px; 
+ color: #fff;
+}
+
+.second_box .second_box_order p{
+
+ color: #cacaca;
+}
+
+ .second_box_form button {
+  display: block; 
+  width: 70%; 
+  margin-bottom: 25px; 
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.second_box_form input{
+  display: block; 
+  width: 70%; 
+  margin-bottom: 25px; 
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+.steps {
+    background-image: url(img/bg_main.jpg);
+    background-position: ;
+    background-size: cover;
+    background-position-x: 50%;
+}
 
 /*==========Карусель ==========*/
 
