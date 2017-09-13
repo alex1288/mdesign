@@ -87,6 +87,16 @@ footer {
       color: #f0ecec;
 }
 
+footer p{
+
+      color: #f0ecec;
+}
+
+
+.gray_style {
+    background-color: rgba(51, 51, 68, 0.5);
+}
+
 
 .top_line {
   position: fixed;
@@ -149,7 +159,9 @@ color: #fff;
   font-size: 16px;
   margin-left: 25px;
 }
-
+.contact_top p{
+  color: #f0ecec;
+}
 
 .contact_top a:hover{
   background-color: #9a0f0f;
@@ -174,6 +186,8 @@ color: #fff;
 
 
 
+
+
 .main_box {
     background-image: url(img/bg_main.jpg);
     background-position: ;
@@ -192,8 +206,10 @@ color: #fff;
 }
 
 .second_box .second_box_order{
- background-color: rgba(51, 51, 68, 0.9);
+ background-color: rgba(51, 51, 68, 1);
  color: #cacaca;
+ position: relative;
+    top: 55px;
 }
 
 .second_box .second_box_order h3{
@@ -233,6 +249,49 @@ font-size: 25px;
     background-position-x: 50%;
 }
 
+.steps p{
+  color: #f0ecec;
+  text-align: center;
+  font-size: 22px;
+  position: relative;
+  top: 100px;
+}
+
+.steps h2{
+    color: #f0ecec;
+    top: 60px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+.our_works {
+
+}
+
+.our_works ul{
+    text-align: center;
+}
+.our_works ul li{
+  display: inline-block;
+  margin: 0.2%;
+}
+
+.works_item {
+  width: 100%;
+}
+
+.works_item img{
+width: 100%
+
+}
+
 /*==========Карусель ==========*/
 
 .item {
@@ -268,7 +327,7 @@ font-size: 25px;
   transition:all 0.3s linear;
 }
 
-h3.name {
+h3.city-name {
   padding:0px 0;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
