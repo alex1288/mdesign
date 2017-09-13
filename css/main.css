@@ -361,16 +361,16 @@ width: 100%
 
 
 .reviews h3{
-  text-align: left;
-  font-size: 25px;
+  text-align: center;
+  font-size: 21px;
 }
 
 .reviews p{
   max-width: 850px;
   margin: auto;
-  font-size: 21px;
+  font-size: 17px;
   margin-top: 10px;
-  text-align: left;
+  text-align: center;
 }
 
 
