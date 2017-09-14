@@ -291,6 +291,13 @@ font-size: 25px;
  color: #cacaca;
 }
 
+.second_box_form p{
+text-align: center;
+text-transform: uppercase;
+font-size: 21px; 
+}
+
+
  .second_box_form button {
   display: block; 
   width: 70%; 
@@ -312,6 +319,38 @@ font-size: 25px;
 
 
 
+.second_box_icon {
+
+}
+.second_box_icon ul{
+
+}
+.second_box_icon ul li{
+  width: 33%;
+  display: inline-block;
+    text-align: center;
+  
+}
+
+.second_box_icon ul li img{
+  width: 120px;
+
+}
+
+.second_box_icon ul li p{
+  font-weight: 700;
+      font-size: 21px;
+}
+
+
+
+.second_box_note {
+ text-align: center;
+}
+
+.second_box_note p{
+
+}
 
 .steps {
     background-image: url(img/bg_second.jpg);
