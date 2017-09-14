@@ -121,7 +121,7 @@ $(document).ready(function() {
 		dots: true,
 		nav: true,
 		navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-		navContainer: '#customNav',
+		navContainer: '#customNav2',
 		responsive: {
 	    // > 0
 	    0 : {
