@@ -55,7 +55,7 @@ $(document).ready(function() {
 	});
 
 	//Каруселька
-	//Документация: http://owlgraphic.com/owlcarousel/
+	//Документация: 
 	// var owl = $(".carousel");
 	// owl.owlCarousel({
 	// 	items : 4
@@ -110,14 +110,14 @@ $(document).ready(function() {
 	    autoplayTimeout:6000,
 	    autoplayHoverPause:true,
 		//stagePadding: 30,
-		dots: false,
+		dots: true,
 		nav: true,
 		navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
 		navContainer: '#customNav2',
 		responsive: {
 	    // > 0
 	    0 : {
-	      dots: false,
+	      dots: true,
 	      margin:30,
 	      stagePadding: 30,
 	    },
@@ -125,7 +125,7 @@ $(document).ready(function() {
 	    768 : {
 	    	margin:100,
 	    	stagePadding: 100,
-        //dots: true,
+        dots: true,
 	    }
 		}
 	});
@@ -136,7 +136,7 @@ $(document).ready(function() {
         autoplayTimeout:4000,
 	    autoplayHoverPause:true,
         animateOut: 'fadeOut',
-        dots: false,
+        dots: true,
         nav: false,
 
     });
