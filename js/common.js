@@ -30,7 +30,20 @@ $(document).ready(function() {
 	//Плавный скролл до блока .div по клику на .scroll
 	//Документация: https://github.com/flesler/jquery.scrollTo
 	$(".scroll").click(function() {
-		$.scrollTo($("#stats_goto"), 800, {
+		$.scrollTo($("#price"), 800, {
+			offset: -90
+		});
+	});
+
+	$(".scroll").click(function() {
+		$.scrollTo($("#works"), 800, {
+			offset: -90
+		});
+	});
+
+
+	$(".scroll").click(function() {
+		$.scrollTo($("#reviews"), 800, {
 			offset: -90
 		});
 	});
