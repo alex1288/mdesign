@@ -102,6 +102,14 @@ $(document).ready(function() {
 		return false;
 	});
 
+
+
+
+
+
+
+
+
 	$(".owl-carousel").owlCarousel({
 		loop:true,
 		items: 1,
@@ -113,7 +121,7 @@ $(document).ready(function() {
 		dots: true,
 		nav: true,
 		navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-		navContainer: '#customNav2',
+		navContainer: '#customNav',
 		responsive: {
 	    // > 0
 	    0 : {
