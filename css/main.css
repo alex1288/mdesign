@@ -57,6 +57,7 @@ h2 {
 
 }
 
+
 h3{
 	font-size: 20px;
   line-height: 25px;
@@ -313,12 +314,20 @@ font-size: 25px;
 
 .steps h2{
     color: #f0ecec;
-    top: 60px;
+    top: 80px;
     position: relative;
 }
 
 
+.how_we_work {
+  width: 100%;
+}
 
+.how_we_work img{
+  width: 100%;
+      position: relative;
+    top: 115px;
+}
 
 
 
