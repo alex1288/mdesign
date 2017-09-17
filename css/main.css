@@ -386,12 +386,79 @@ font-size: 21px;
 
 
 
-
-
-
-.our_works {
+.about_us {
 
 }
+
+
+.about_us ul{
+      margin-bottom: 30px;
+}
+
+.about_us ul li{
+position: relative;
+list-style-type: none;
+height: 80px;
+margin-top: 30px; 
+
+}
+
+.about_us_main {
+font-weight: 100;
+font-size: 32px;
+text-transform: uppercase;
+}
+
+.about_us .about_us_img_like {
+  width: 59px;
+  height: 59px;
+  background-image: url(img/like.ico);
+  background-size: cover;
+  position: absolute;
+  top: 17px;
+  left: 0;
+}
+
+.about_us .about_us_img_dislike {
+  width: 59px;
+  height: 59px;
+  background-image: url(img/dislike.ico);
+  background-size: cover;
+  position: absolute;
+  top: 17px;
+  left: 0;
+}
+
+
+.about_us .about_us_p {
+width: auto;
+display: inline-block;
+margin-left: 65px;
+
+}
+
+.about_us .about_us_p p{
+    font-size: 19px;
+}
+
+/*.about_us ul li p:before{
+  content: url(img/like.png);
+  width: 50px;
+  height: 50px;
+     display: inline-block;
+    vertical-align: middle;
+}*/
+
+.our_works {
+    background-color: #333344;
+    color: #f0ecec;
+    padding: 30px 0px;
+}
+.our_works h2{
+   
+    color: #f0ecec;
+   
+  }
 
 .our_works ul{
     text-align: center;
@@ -401,12 +468,12 @@ font-size: 21px;
   margin: 0.2%;
 }
 
-.works_item {
+.item .works_item {
   width: 100%;
 }
 
 .works_item img{
-width: 100%
+width: 250px;
 
 }
 
@@ -543,7 +610,7 @@ h3.city-name {
 .owl-my-nav .owl-next{
   position: absolute;
   width: 60px;
-  top:34%;
+  top:20%;
   font-size: 100px;
   z-index: 20;
   cursor:pointer;
@@ -558,17 +625,18 @@ h3.city-name {
 }
 
 .owl-my-nav .owl-prev {
-  left: 50px;
+  left: -45px;
 }
 
 .owl-my-nav .owl-next {
-  right: 50px;
+  right:-30px;
   text-align: right;
 }
 
 .owl-controls {
   margin-top: 20px;
 }
+
 /*==========Карусель END ==========*/
 
 
