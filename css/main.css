@@ -198,7 +198,7 @@ color: #fff;
 
 .slogan {
   position: relative;
-  top: 125px;
+  top: 115px;
 }
 
 .slogan_logo{
@@ -206,7 +206,7 @@ color: #fff;
 }
 
 .slogan_logo img{
-  width: 120px;
+  width: 160px;
 
 }
 
@@ -358,6 +358,7 @@ font-size: 21px;
 .second_box .second_box_order .second_box_form p{
       color: #333344;
 
+
 }
 
  .second_box_form button {
@@ -392,14 +393,14 @@ font-size: 21px;
   line-height: 75px;
   text-align: center;
   background: none;
- // color: #999;
+  //color: #999;
   color: #333344;
   border: none;
   font-family: 'Roboto', sans-serif;
   font-size: 21px;
   font-weight: 300;
   outline: none;
-  border-bottom: 1px solid #bebebe;
+  border-bottom: 2px solid #bebebe;
   -webkit-transition: all 0.5s ease-in-out 0s;
   -moz-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -411,6 +412,7 @@ font-size: 21px;
   //border-bottom: 2px solid #6bace1;
   border-bottom: 2px solid #e1b52a;
 color: #333344;
+//color: #999;
 
 }
 
@@ -518,7 +520,7 @@ text-transform: uppercase;
 .about_us .about_us_img_like {
   width: 59px;
   height: 59px;
-  background-image: url(img/like.ico);
+  background-image: url(img/like.png);
   background-size: cover;
   position: absolute;
   top: 17px;
@@ -528,7 +530,7 @@ text-transform: uppercase;
 .about_us .about_us_img_dislike {
   width: 59px;
   height: 59px;
-  background-image: url(img/dislike.ico);
+  background-image: url(img/dislike.png);
   background-size: cover;
   position: absolute;
   top: 17px;
@@ -539,7 +541,7 @@ text-transform: uppercase;
 .about_us .about_us_p {
 width: auto;
 display: inline-block;
-margin-left: 65px;
+margin-left: 90px;
 
 }
 
@@ -857,7 +859,7 @@ h3.city-name {
 
 /*==========КНОПКА ВВЕРХ конец==========*/
 /*========== Прелоадер ==========*/
-    #page-preloader {
+/*    #page-preloader {
       position: fixed;
       left: 0;
       top: 0;
@@ -877,7 +879,7 @@ h3.city-name {
       background: url(img/loader4.gif) no-repeat 50% 50%;
       margin: -16px 0 0 -16px;
       background-size: cover;
-    }
+    }*/
 /*========== Прелоадер ==========*/
 
 
